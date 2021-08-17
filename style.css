@@ -1,0 +1,62 @@
+.center {
+	color: white;
+	text-align: center;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+}
+.small {
+	font-size: 40px;
+}
+body {
+	margin: 0;
+	font-family:arial;
+	background-color: #828282;
+}
+
+.topnav {
+	overflow: hidden;
+	background-color: #2e2a2a;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	text-align: center;
+	width: 100%;
+}
+
+.topnav a {
+	float: center;
+	color: #ffffff;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-size: 17px;
+	opacity: 0.6;
+}
+
+.topnav a:hover {
+	color: white;
+	transition: 1.0s;
+}
+.topnav a:hover {opacity: 1}
+
+.topnavimg {
+	margin-left: auto;
+	margin-right: auto;
+}
+.textoverlay {
+    text-align: center;
+    position: relative;
+    top:0;
+    left:0;
+    z-index:1;
+    font-size: 70px;
+    font-weight: 1000;
+    color: white;
+}
+.container { position: relative; }
+
+.container video {
+    position: relative;
+    z-index:0;
+    width: 100%;
+}
