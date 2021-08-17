@@ -1,0 +1,61 @@
+.center {
+	color: white;
+	text-align: center;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+}
+.backingtext {
+	background-size: cover;
+	margin-left: auto;
+	margin-right: auto;
+	width: 70%;
+	background-image: url("header.jpg");
+	background-repeat: no-repeat;
+	font-size: 70px;
+}
+.small {
+	font-size: 40px;
+}
+body {
+	margin: 0;
+	font-family:Tahoma;
+}
+
+.topnav {
+	overflow: hidden;
+	background-color: #2e2a2a;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	text-align: center;
+	width: 100%;
+}
+
+.topnav a {
+	float: center;
+	color: #ffffff;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-size: 17px;
+	opacity: 0.6;
+}
+
+.topnav a:hover {
+	color: white;
+	transition: 1.0s;
+}
+.topnav a:hover {opacity: 1}
+
+.topnavimg {
+	margin-left: auto;
+	margin-right: auto;
+}
+.ourmotto {
+	background-image: url('motto.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	font-size: 60px;
+	text-align: center;
+}
